@@ -74,7 +74,7 @@ jobs:
            username: ${{ github.actor }}  
            password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Docker image
-        run: docker build -t ghcr.io/teodor.stamatin/ci_cd_lab:latest .
+        run: docker build -t ghcr.io/teodorstamatin/ci_cd_lab:latest .
       - name: Push Docker image
-        run: docker push ghcr.io/teodor.stamatin/ci_cd_lab:latest
+        run: docker push ghcr.io/teodorstamatin/ci_cd_lab:latest
 
