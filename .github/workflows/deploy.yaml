@@ -58,7 +58,7 @@ jobs:
       packages: write
 
     needs: compile
-    if: succes()
+    if: success()
 
     steps:
       - name: Checkout code
